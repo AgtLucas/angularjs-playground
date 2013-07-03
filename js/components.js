@@ -28,7 +28,7 @@ angular.module('components', []).
           '</ul>' +
           '<div class="tab-content" ng-transclude></div>' +
         '</div>',
-      replace: true;
+      replace: true
     }
   }).
   directive('pane', function() {
