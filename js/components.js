@@ -15,7 +15,7 @@ angular.module('components', []).
         }
 
         this.addPane = function(pane) {
-          if (panes.length = 0) $scope.select(pane);
+          if (panes.length == 0) $scope.select(pane);
           panes.push(pane);
         }
       },
@@ -29,7 +29,7 @@ angular.module('components', []).
           '<div class="tab-content" ng-transclude></div>' +
         '</div>',
       replace: true
-    }
+    };
   }).
   directive('pane', function() {
     return {
