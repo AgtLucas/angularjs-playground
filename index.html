@@ -7,21 +7,6 @@
 </head>
 <body>
 
-<tabs>
-  <pane title="Locatization">
-    Date: {{ '2013-07-01' | date: 'fullDate' }} <br>
-    Currency: {{ 123456 | currency }} <br>
-    Number: {{ 98765.4321 | number }} <br>
-  </pane>
-
-  <pane title="Pluralization">
-    <div ng-controller="BeerCounter">
-      <div ng-repeat>
-        <ng-pluralize count="beerCount" when="beerForms"></ng-pluralize>
-      </div>
-    </div>
-  </pane>
-</tabs>
 
 <script src="js/components.js"></script>
 <script src="js/beers.js"></script>
